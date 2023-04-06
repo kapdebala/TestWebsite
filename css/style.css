@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.navbar {
+    margin: 0 200px;
+}
+
+.nav-link {
+    margin: 0 11px;
+}
+
+.nav-icons {
+    padding: 0 10px;
+}
+
+.carousel .carousel-item {
+    height: 670px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 670px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        margin: 0 100px;
+    }
+
+    .nav-icons {
+        padding: 0 2px;
+    }
+}
